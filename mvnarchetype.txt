@@ -1,16 +1,4 @@
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Maven Stub Project (No POM) 1
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] >>> maven-archetype-plugin:3.1.2:generate (default-cli) > generate-sources @ standalone-pom >>>
-[INFO] 
-[INFO] <<< maven-archetype-plugin:3.1.2:generate (default-cli) < generate-sources @ standalone-pom <<<
-[INFO] 
-[INFO] --- maven-archetype-plugin:3.1.2:generate (default-cli) @ standalone-pom ---
-[INFO] Generating project in Interactive mode
-[INFO] No archetype defined. Using maven-archetype-quickstart (org.apache.maven.archetypes:maven-archetype-quickstart:1.0)
+> mvn archetype:generate
 Choose archetype:
 1: remote -> am.ik.archetype:elm-spring-boot-blank-archetype (Blank multi project for Spring Boot + Elm)
 2: remote -> am.ik.archetype:graalvm-blank-archetype (Blank project for GraalVM)
@@ -2962,10 +2950,4 @@ NOTE: Retrolambda support provided "as is" - if you have any problems, please fi
 2675: remote -> xyz.luan.generator:xyz-gae-generator (-)
 2676: remote -> xyz.luan.generator:xyz-generator (-)
 2677: remote -> za.co.absa.hyperdrive:component-archetype (-)
-Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 1582: Choose org.apache.cocoon:cocoon-22-archetype-webapp version: 
-1: 1.0.0-M1
-2: 1.0.0-M2
-3: 1.0.0-RC1
-4: 1.0.0-RC2
-5: 1.0.0
-Choose a number: 5: 
+Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 1582: 
